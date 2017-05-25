@@ -5,9 +5,9 @@ class ProductsController < ApplicationController
 	end
 
 	def show
-		
+
 	end
-		
+
 	def add_to_cart
 		if !current_cart.products.include?(@product)
 			current_cart.add_product_to_cart(@product)
@@ -15,17 +15,17 @@ class ProductsController < ApplicationController
 		else
 			flash[:warning] = "你的购物车内已经有此物品"
 		end
-		
+
 		redirect_to :back
-	
+
 	end
-		
+
 
 	private
 
 
 
 	def find_product_id
-		@product = Product.find(params[:id])	
+		@product = Product.find(params[:id])
 	end
 end
