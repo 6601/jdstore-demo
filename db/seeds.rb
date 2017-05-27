@@ -21,36 +21,36 @@ end
 
 #产品列表导入初始化
 Product.create!(
-	title: "Ruby on Rails实践之路：写给PHP和Java开发者的书",
-	price: 37.9,
+	title: "mix-tea",
+	price: 37,
 	quantity: 10,
-	image: open("https://img14.360buyimg.com/n12/16103/e89aa9c4-3835-4c73-8ae0-8b1ae4c8f412.jpg")
+	image: open("http://oqibh4tbw.bkt.clouddn.com/mix-tea.jpg")
 	)
 
 Product.create!(
-	title: "Ruby on Rails视频教程",
-	price: 66,
+	title: "花瓣卡布奇诺",
+	price: 25,
 	quantity: 10,
-	image: open("https://gd1.alicdn.com/imgextra/i3/2979856611/TB2k8kjebWJ.eBjSspdXXXiXFXa_!!2979856611.jpg")
+	image: open("http://oqibh4tbw.bkt.clouddn.com/%E8%8A%B1%E7%93%A3%E5%8D%A1%E5%B8%83%E5%A5%87%E8%AF%BA.jpg")
 	)
 
 Product.create!(
-	title: "R蓝色衬衫女短袖夏季2017新款韩版套头",
-	price: 109,
+	title: "苹果绿茶",
+	price: 28,
 	quantity: 10,
-	image: open("https://img.alicdn.com/bao/uploaded/i1/TB1yOk1RXXXXXbdXFXXXXXXXXXX_!!0-item_pic.jpg")
+	image: open("http://oqibh4tbw.bkt.clouddn.com/apple-tea.jpg")
 	)
 
 Product.create!(
-	title: "今天拍的一个照片",
-	price: 100,
+	title: "柠檬汁",
+	price: 39,
 	quantity: 1,
-	image: open("http://wx3.sinaimg.cn/mw690/ac5c7d92ly1fft9ez1s19j20qo0zkag6.jpg")
+	image: open("http://oqibh4tbw.bkt.clouddn.com/%E6%9F%A0%E6%AA%AC%E6%B1%81.jpg")
 	)
 
 Product.create!(
-	title: "每周保持5小时以上的运动时间",
-	price: 1239,
+	title: "暖心卡布奇诺",
+	price: 49,
 	quantity: 170,
-	image: open("http://wx1.sinaimg.cn/mw690/ac5c7d92ly1fft9f39sb3j20qo0zkk07.jpg")
+	image: open("http://oqibh4tbw.bkt.clouddn.com/%E6%9A%96%E5%BF%83%E5%92%96%E5%95%A1.jpg")
 	)

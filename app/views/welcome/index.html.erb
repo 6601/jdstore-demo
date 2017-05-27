@@ -1,4 +1,149 @@
-<h1>hello world!</h1>
+<!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+
+    $('#bootstrap-touch-slider').bsTouchSlider();
+
+    </script>
+
+   <script>
+    $(document).ready(function () {
+    $('.material-button-toggle').click(function () {
+        $(this).toggleClass('open');
+        $('.option').toggleClass('scale-on');
+    });
+   });
+  </script>
 
 
+<head>
+  <!-- Add this css File in head tag-->
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
+</head>
+
+
+<!--
+       If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+       Slide effect: slide, fade
+       Text Align: slide_style_center, slide_style_left, slide_style_right
+       Add Text Animation: https://daneden.github.io/animate.css/
+       -->
+
+      <div class="row row1">
+        <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                    <!-- Slide Background -->
+                    <img src="http://oqibh4tbw.bkt.clouddn.com/tea-landing-page.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_left">
+                                <h1 data-animation="animated zoomInRight">放开身心，寻找慢下来的自己</h1>
+                                <p data-animation="animated fadeInLeft">Bootstrap carousel now touch enable slide.</p>
+                                <a href="/products" class="btn btn-danger" data-animation="animated fadeInRight">开始一刻</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="http://oqibh4tbw.bkt.clouddn.com/tea-landing-page2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated flipInX">繁华都市中的一缕宁静</h1>
+                        <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+                        <a href="/products" class="btn btn-danger" data-animation="animated fadeInDown">开始一刻</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="http://oqibh4tbw.bkt.clouddn.com/tea-landing-page3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_right">
+                        <h1 data-animation="animated zoomInLeft">追寻童年街头的味道</h1>
+                        <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p>
+                        <a href="/products" class="btn btn-danger" data-animation="animated fadeInRight">开始一刻</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+
+            </div><!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div> <!-- End  bootstrap-touch-slider Slider -->
+      </div>
+
+
+      <div class="container referrer">
+         <div class="section text-center">
+           <h2 class="title">他们怎么说</h2>
+
+           <div class="team">
+             <div class="row">
+               <div class="col-md-4">
+                 <div class="team-player">
+                   <img src="http://oqibh4tbw.bkt.clouddn.com/landing-page-role.jpg" alt="Thumbnail Image" class=" humbnail" width="300" height="300">
+
+                   <p class="description text-left">在这里，我重新找回了童年的味道</p>
+                 </div>
+               </div>
+               <div class="col-md-4">
+                 <div class="team-player">
+                   <img src="http://oqibh4tbw.bkt.clouddn.com/landing-page-role2.jpg" alt="Thumbnail Image" class=" thumbnail" width="300" height="300">
+
+                   <p class="description text-left">这是一个神奇的期房，我从未体会到这种感觉！</p>
+
+                 </div>
+               </div>
+               <div class="col-md-4">
+                 <div class="team-player">
+                   <img src="http://oqibh4tbw.bkt.clouddn.com/landing-page-role3.jpg" alt="Thumbnail Image" class="thumbnail" width="300" height="300">
+                   <p class="description text-left">每天喝这里的饮品成为我的不二之选。</p>
+
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>

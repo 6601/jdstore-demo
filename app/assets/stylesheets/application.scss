@@ -17,6 +17,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/earlyaccess/notosanssc.css');   //引入google思源黑简在线字体 需要使用VPN才可生效
 
 html {
    position: relative;
@@ -24,6 +25,8 @@ html {
  }
 
  body {
+   font-family: 'Noto Sans SC', sans-serif;            // google思源黑简作为主字体
+   color: #666;
    /* Margin bottom by footer height */
    margin-bottom: 100px;
  }
@@ -37,10 +40,29 @@ html {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 100px;
-    background-color: #233140;
+    background-color: #E4D2AD;  //背景颜色
+    border-color: #E4D2AD;   //边框色
 
     p {
-       color: white;
       margin-top: 30px;
     }
    }
+
+
+//navbar
+   .navbar-default {
+     background-color: #E4D2AD;  //背景颜色
+     border-color: #E4D2AD;   //边框色
+     margin-bottom: 0; //底部 margin 不撑开距离
+
+   }
+
+   .navbar-default .navbar-brand {
+  font-size: 30px;
+  padding: 0px 15px; //上下10px, 左右15px
+  line-height: 20px; //文字行高
+}
+
+.products{
+  font-size: 20px;
+}
